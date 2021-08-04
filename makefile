@@ -1,5 +1,5 @@
 make:
-	gcc -Wall -o braille braille_translator_sol.c
+	gcc -Wall -o braille braille_translator.c
 
 memcheck:
-	valgrind ./braille cats.txt
+	valgrind ./braille hello.txt
